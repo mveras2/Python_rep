@@ -1,0 +1,9 @@
+def calcula_imc(peso, altura):
+    return peso*100 / (altura*2)
+
+peso = eval(input("digite o peso em kilos:"))
+altura = eval(input("digite o valor da altura em cm: "))
+
+x = calcula_imc(peso, altura)
+
+print(f"O IMC é :{x}")
