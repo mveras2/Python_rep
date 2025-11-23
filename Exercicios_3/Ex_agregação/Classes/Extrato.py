@@ -1,6 +1,5 @@
 class Extrato:
     
-    
     def __init__(self):
         self.transacoes = []
         
